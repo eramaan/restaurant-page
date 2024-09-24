@@ -1,0 +1,32 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(self["webpackChunkrestaurant_page"] = self["webpackChunkrestaurant_page"] || []).push([["src_contact_js"],{
+
+/***/ "./src/contact.js":
+/*!************************!*\
+  !*** ./src/contact.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   repopulateContentContact: () => (/* binding */ repopulateContentContact)\n/* harmony export */ });\n/* harmony import */ var _img_contact_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./img/contact.jpg */ \"./src/img/contact.jpg\");\nconsole.log(\"call me maybe\");\n\n\n\nfunction repopulateContentContact(contentDiv) {\n\n    // create the sections \n    for (let i=1; i<4; i++) {\n        const newSection = document.createElement('section');\n        newSection.id = `section-${i}`\n        contentDiv.appendChild(newSection);\n    }\n\n    // add the divs inside section-1\n    const newSection1 = document.getElementById('section-1');\n\n    const newSec1H1 = document.createElement('h1');\n    newSec1H1.textContent = `Contact us`;\n    newSec1H1.className = `contact`;\n    newSection1.appendChild(newSec1H1);\n\n    const newSec1P = document.createElement('p');\n    newSec1P.textContent = `Drop a line!`;\n    newSec1P.className = `contact`;\n    newSection1.appendChild(newSec1P);\n\n    // add contact img inside section-2\n    const newSection2 = document.getElementById('section-2');\n\n    const newImg = document.createElement('img');\n    newImg.src = _img_contact_jpg__WEBPACK_IMPORTED_MODULE_0__;\n    newImg.alt = `contact`;\n    newSection2.appendChild(newImg);\n\n    // add the divs inside section-3\n    const newSection3 = document.getElementById('section-3');\n\n    const newSec3H2 = document.createElement('h2');\n    newSec3H2.textContent = `Contact info`;\n    newSec3H2.className = `contact`;\n    newSection3.appendChild(newSec3H2);\n\n    const newSec3P1 = document.createElement('p');\n    newSec3P1.textContent = `Email: info@ourrestaurant.com/n Phone: (123) 456-7890`;\n    newSec3P1.className = `contact`;\n    newSection3.appendChild(newSec3P1);\n\n    const newSec3P2 = document.createElement('p');\n    newSec3P2.textContent = `© 2024 Our Restaurant`;\n    newSec3P2.className = `contact`;\n    newSection3.appendChild(newSec3P2);\n\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29udGFjdC5qcyIsIm1hcHBpbmdzIjoiOzs7OztBQUFBO0FBQzJDOzs7QUFHcEM7O0FBRVA7QUFDQSxrQkFBa0IsS0FBSztBQUN2QjtBQUNBLG1DQUFtQyxFQUFFO0FBQ3JDO0FBQ0E7O0FBRUE7QUFDQTs7QUFFQTtBQUNBO0FBQ0E7QUFDQTs7QUFFQTtBQUNBO0FBQ0E7QUFDQTs7QUFFQTtBQUNBOztBQUVBO0FBQ0EsaUJBQWlCLDZDQUFVO0FBQzNCO0FBQ0E7O0FBRUE7QUFDQTs7QUFFQTtBQUNBO0FBQ0E7QUFDQTs7QUFFQTtBQUNBO0FBQ0E7QUFDQTs7QUFFQTtBQUNBO0FBQ0E7QUFDQTs7QUFFQSIsInNvdXJjZXMiOlsid2VicGFjazovL3Jlc3RhdXJhbnQtcGFnZS8uL3NyYy9jb250YWN0LmpzP2Q1NjUiXSwic291cmNlc0NvbnRlbnQiOlsiY29uc29sZS5sb2coXCJjYWxsIG1lIG1heWJlXCIpO1xuaW1wb3J0IGNvbnRhY3RJbWcgZnJvbSBcIi4vaW1nL2NvbnRhY3QuanBnXCI7XG5cblxuZXhwb3J0IGZ1bmN0aW9uIHJlcG9wdWxhdGVDb250ZW50Q29udGFjdChjb250ZW50RGl2KSB7XG5cbiAgICAvLyBjcmVhdGUgdGhlIHNlY3Rpb25zIFxuICAgIGZvciAobGV0IGk9MTsgaTw0OyBpKyspIHtcbiAgICAgICAgY29uc3QgbmV3U2VjdGlvbiA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ3NlY3Rpb24nKTtcbiAgICAgICAgbmV3U2VjdGlvbi5pZCA9IGBzZWN0aW9uLSR7aX1gXG4gICAgICAgIGNvbnRlbnREaXYuYXBwZW5kQ2hpbGQobmV3U2VjdGlvbik7XG4gICAgfVxuXG4gICAgLy8gYWRkIHRoZSBkaXZzIGluc2lkZSBzZWN0aW9uLTFcbiAgICBjb25zdCBuZXdTZWN0aW9uMSA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdzZWN0aW9uLTEnKTtcblxuICAgIGNvbnN0IG5ld1NlYzFIMSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2gxJyk7XG4gICAgbmV3U2VjMUgxLnRleHRDb250ZW50ID0gYENvbnRhY3QgdXNgO1xuICAgIG5ld1NlYzFIMS5jbGFzc05hbWUgPSBgY29udGFjdGA7XG4gICAgbmV3U2VjdGlvbjEuYXBwZW5kQ2hpbGQobmV3U2VjMUgxKTtcblxuICAgIGNvbnN0IG5ld1NlYzFQID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgncCcpO1xuICAgIG5ld1NlYzFQLnRleHRDb250ZW50ID0gYERyb3AgYSBsaW5lIWA7XG4gICAgbmV3U2VjMVAuY2xhc3NOYW1lID0gYGNvbnRhY3RgO1xuICAgIG5ld1NlY3Rpb24xLmFwcGVuZENoaWxkKG5ld1NlYzFQKTtcblxuICAgIC8vIGFkZCBjb250YWN0IGltZyBpbnNpZGUgc2VjdGlvbi0yXG4gICAgY29uc3QgbmV3U2VjdGlvbjIgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnc2VjdGlvbi0yJyk7XG5cbiAgICBjb25zdCBuZXdJbWcgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdpbWcnKTtcbiAgICBuZXdJbWcuc3JjID0gY29udGFjdEltZztcbiAgICBuZXdJbWcuYWx0ID0gYGNvbnRhY3RgO1xuICAgIG5ld1NlY3Rpb24yLmFwcGVuZENoaWxkKG5ld0ltZyk7XG5cbiAgICAvLyBhZGQgdGhlIGRpdnMgaW5zaWRlIHNlY3Rpb24tM1xuICAgIGNvbnN0IG5ld1NlY3Rpb24zID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3NlY3Rpb24tMycpO1xuXG4gICAgY29uc3QgbmV3U2VjM0gyID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnaDInKTtcbiAgICBuZXdTZWMzSDIudGV4dENvbnRlbnQgPSBgQ29udGFjdCBpbmZvYDtcbiAgICBuZXdTZWMzSDIuY2xhc3NOYW1lID0gYGNvbnRhY3RgO1xuICAgIG5ld1NlY3Rpb24zLmFwcGVuZENoaWxkKG5ld1NlYzNIMik7XG5cbiAgICBjb25zdCBuZXdTZWMzUDEgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdwJyk7XG4gICAgbmV3U2VjM1AxLnRleHRDb250ZW50ID0gYEVtYWlsOiBpbmZvQG91cnJlc3RhdXJhbnQuY29tL24gUGhvbmU6ICgxMjMpIDQ1Ni03ODkwYDtcbiAgICBuZXdTZWMzUDEuY2xhc3NOYW1lID0gYGNvbnRhY3RgO1xuICAgIG5ld1NlY3Rpb24zLmFwcGVuZENoaWxkKG5ld1NlYzNQMSk7XG5cbiAgICBjb25zdCBuZXdTZWMzUDIgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdwJyk7XG4gICAgbmV3U2VjM1AyLnRleHRDb250ZW50ID0gYMKpIDIwMjQgT3VyIFJlc3RhdXJhbnRgO1xuICAgIG5ld1NlYzNQMi5jbGFzc05hbWUgPSBgY29udGFjdGA7XG4gICAgbmV3U2VjdGlvbjMuYXBwZW5kQ2hpbGQobmV3U2VjM1AyKTtcblxufVxuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/contact.js\n");
+
+/***/ }),
+
+/***/ "./src/img/contact.jpg":
+/*!*****************************!*\
+  !*** ./src/img/contact.jpg ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "5f009c09e965cd0bd664.jpg";
+
+/***/ })
+
+}]);
