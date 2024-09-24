@@ -1,4 +1,11 @@
-.try {
-    font-size: larger;
-    color: rgb(48, 42, 165);
+.first-page {
+    color: cornflowerblue;
+}
+
+.menu {
+    color: darkolivegreen;
+}
+
+.contact {
+    color: brown;
 }
